@@ -34,12 +34,18 @@ A aplicação deverá permitir:
 - Atribuir um chamado a um responsável
 - Encerrar chamados
 - Consultar informações sobre os chamados
+- Excluir usuário
+- Excluir chamado
 
 Você **não receberá um passo a passo de como fazer cada funcionalidade**.
-
 A ideia é que você pesquise, leia documentação, teste possibilidades, erre, corrija e aprenda durante o desenvolvimento.
 
 > 💡 Na vida real, ninguém entrega a documentação completa dizendo exatamente qual código você precisa escrever. Saber pesquisar faz parte da profissão.
+
+### Link Apoio
+* [O que são métodos HTTP?](https://blog.postman.com/what-are-http-methods/)
+* [API Methods](https://www.moesif.com/blog/technical/api-methods/)
+* [O que é API, conceitos, benefícios e exemplos práticos](https://www.youtube.com/watch?v=luvsk5YjU6c)
 
 ---
 
@@ -86,7 +92,37 @@ Utilize obrigatoriamente:
 Você pode utilizar outras bibliotecas se achar necessário, mas deverá saber explicar por que escolheu utilizá-las.
 
 ---
+## 🌱 Antes de começar: Git
 
+Antes de colocar a mão no código, você vai precisar aprender o básico de **Git**.
+
+Durante o desafio, você deverá utilizar Git para versionar seu projeto e publicar seu código em um repositório remoto.
+
+Não precisa saber tudo de Git agora. O objetivo é entender o fluxo básico e começar a criar o hábito de versionar seu código.
+
+### 📚 Material de apoio
+
+Preparei um guia separado com os principais comandos que você vai precisar:
+
+👉 **[Guia de Git](./docs/git.md)**
+
+No guia você encontrará exemplos práticos de:
+
+* `git init`
+* `git clone`
+* `git status`
+* `git add`
+* `git commit`
+* `git pull`
+* `git push`
+
+### 🎯 Ao final
+
+Seu projeto deverá estar versionado em um repositório remoto e conter commits que mostrem a evolução do desenvolvimento.
+
+> 💡 Não tenha medo de pesquisar. Desenvolvedor não é quem sabe todos os comandos de cabeça — é quem sabe **o que precisa fazer e como encontrar a informação para fazer**.
+
+---
 # 📋 Requisitos funcionais
 
 ## 1. 👤 Usuários
@@ -100,7 +136,7 @@ id
 nome
 email
 data_de_criacao
-````
+```
 
 A API deverá permitir:
 
